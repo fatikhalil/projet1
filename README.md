@@ -29,7 +29,7 @@ PlanetExplorer est une application Android conçue pour explorer les planètes d
 ## Installation
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/PlanetExplorer.git
+   git clone https://github.com/fatikhalil/projet1.git
    ```
 2. Ouvrez le projet dans Android Studio.
 3. Exécutez l'application sur un émulateur ou un appareil physique.
