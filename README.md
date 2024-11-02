@@ -52,7 +52,7 @@ PlanetExplorer est une application Android conçue pour explorer les planètes d
 - **Zoom** : Pincez pour zoomer sur une planète.
 
 ### Liste des Favoris
-- Accédez aux favoris avec un triple tap pour afficher les planètes ajoutées.
+- Accédez aux favoris avec un simple tap sur le button pour afficher les planètes ajoutées.
 
 ## Conception et Développement
 ### Structure du Projet
