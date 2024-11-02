@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBD2AF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Bienvenue dans PlanetExplorer !\nExplorez les planètes de notre système solaire et découvrez leurs caractéristiques fascinantes."
+        android:textAlignment="center"
+        android:textColor="#7E5213"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/welcome_image"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/welcome"
+        android:src="@drawable/welcome" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7E5213"
+        android:text="Commencer"
+        android:textSize="22sp" />
+
+</LinearLayout>

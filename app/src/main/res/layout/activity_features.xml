@@ -1,0 +1,174 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBD2AF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="40sp"
+            android:fontFamily="sans-serif-black"
+            android:text="Fonctionnalités de PlanetExplorer"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#563505"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <!-- Fonctionnalité 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:src="@drawable/list" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="cursive"
+                android:paddingStart="40sp"
+                android:text="Affichage des planètes : Vous pouvez voir une liste des planètes avec leurs descriptions et images."
+                android:textColor="#7E5213"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- Fonctionnalité 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:src="@drawable/ic_zoom" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:paddingStart="40sp"
+                android:text="Zoom sur les images : Effectuez un geste de zoom pour agrandir ou réduire l’image de la planète."
+                android:textColor="#7E5213"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <!-- Fonctionnalité 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:src="@drawable/swipe" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:paddingStart="40sp"
+                android:text="Permet de passer d'une planète à l'autre dans la liste.Effectuez un glissement vers la gauche ou vers la droite pour explorer les planètes voisines dans le système solaire."
+                android:textColor="#7E5213"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!-- Fonctionnalité 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:src="@drawable/simpletap" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:paddingStart="40sp"
+                android:text="Affiche les informations détaillées de chaque planète. Un simple appui ouvre une fenêtre avec ses caractéristiques, son histoire et ses particularités."
+                android:textColor="#7E5213"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!-- Fonctionnalité 5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:src="@drawable/doubletap" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:paddingStart="40sp"
+                android:text="Ajoute ou retire la planète de vos favoris. En effectuant un double-clique sur une planète, vous pouvez l'ajouter à votre liste de favoris pour un accès plus rapide, ou la retirer de cette liste si elle y figure déjà."
+                android:textColor="#7E5213"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!-- Fonctionnalité 6-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/longpress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:paddingStart="40sp"
+                android:text=" Fait tourner l'image de la planète. En maintenant votre doigt appuyé sur une planète, elle effectue une rotation pour donner une vue plus immersive de sa forme et de ses détails."
+                android:textColor="#7E5213"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/suivant_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:backgroundTint="#7E5213"
+            android:text="Suivant"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+</ScrollView>
